@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 45%; /* Adjusted to smaller width */
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 15px; /* Reduced padding */
+}
+
+h1 {
+    border: 2px solid red;
+    padding: 5px; /* Reduced padding */
+    margin: 10px 0;
+}
+
+.text-box {
+    border: 2px solid red;
+    padding: 5px; /* Reduced padding */
+    margin: 10px 0;
+}
+
+/* Box around the entire list */
+.list-container {
+    border: 2px solid red;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li {
+    border: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.list-box {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+button {
+    border: 2px solid red;
+    padding: 3px 8px; /* Smaller button */
+    margin: 5px;
+}
+
+a {
+    border: 2px solid red;
+    padding: 3px 8px; /* Smaller link box */
+    margin: 5px;
+    text-decoration: none;
+    color: blue;
+}
